@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #58a6ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    padding: 32px 0px 24px 0px;
+}
+
+#logo {
+    width: 48px;
+    height: 46px;
+    border-radius: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #161b22;
+    border-radius: 6px;
+    padding: 16px;
+    border: 1px solid #21262d;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.input-field div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-field label {
+    font-weight: 400;
+}
+
+#forgot-password:hover {
+    text-decoration: none;
+}
+
+.form-control {
+    all: unset;
+    padding: 5px 12px;
+    line-height: 20px;
+    color: #c9d1d9;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+
+}
+
+.form-control:focus-visible {
+    border-color: #58a6ff;
+}
+
+#submit-button {
+    background-color: #238636;
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px 16px;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 80ms;
+    border: 1px solid rgba(240, 246, 252, 0.1);
+}
+
+#submit-button:hover {
+    background-color: #2ea043;
+}
+
+.login-callout {
+    padding: 16px 44px;
+    border: 1px solid #21262d;
+    border-radius: 6px;
+
+}
+
+.login-callout a {
+    font-size: 14px;
+}
+
+footer {
+    padding: 80px;
+}
+
+footer ul {
+    gap: 16px;
+    display: flex;
+    list-style: none;
+}
+
+footer ul li:last-child a {
+    color: #8b949e;
+}
+
+footer ul li:last-child a:hover {
+    color: #58a6ff;
+}
